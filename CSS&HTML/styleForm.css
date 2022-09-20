@@ -1,0 +1,43 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#text{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: dimgray;
+    text-align: center;
+}
+#submit{ 
+    background-color: rgb(245, 176, 0);
+    text-align: center;
+    border: 0ch;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self: center; /* debería, según yo, alinear el botón */
+
+    
+}
+form{
+    margin: auto;
+    
+}
+fieldset{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+body{
+    
+}

@@ -1,0 +1,25 @@
+#Ordenada{
+    border: 1px;
+    border-style: dashed;
+}
+
+#Desordenada{
+    border: 1px;
+    border-style: dashed;
+}
+
+body{
+    display: inline-block;
+    align-content: center;
+   
+}
+
+h3{
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
