@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFormOrdena.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend id="datos">Datos personales</legend>
+            <label for="">Nombre:</label><br>
+            <input id="text" type="text" name="fname" size="60"><br>
+            <label for="">Edad:</label><br>
+            <input id="text" type="text" name="fage" size="60"><br>
+            <label for="">Direccion:</label><br>
+            <input id="text" type="text" name="faddress" size="60"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de tu ordenador</legend>
+                <label for="">Modelo del ordenador:</label><br>
+                <input id="text" type="text" name="fmodel" size="60"><br>
+                <label for="">Sistema que te da el problema:</label>
+                <select name="system">
+                    <option selected>CPU</option>
+                    <option>Pantalla</option>
+                    <option>Ventilación</option>    
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Descripción del problema</legend>
+                <textarea name="message" rows="10" cols="57" ></textarea>
+        </fieldset>
+
+        <input type="submit" id="button" value="Enviar">
+    </form>
+    
+</body>
+</html>
